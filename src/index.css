@@ -16,6 +16,12 @@
     text-align: justify;
 }
 
+.ce-paragraph--box_center {
+    text-align: center;
+    border: 1px solid lightgray; 
+    padding: 1em;
+}
+
 .ce-paragraph[data-placeholder]:empty::before{
   content: attr(data-placeholder);
   color: #707684;
